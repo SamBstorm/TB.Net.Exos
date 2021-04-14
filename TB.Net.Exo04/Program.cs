@@ -98,6 +98,59 @@ namespace TB.Net.Exo04
             //Console.WriteLine($"{nb}! = {fact}");
 
             #endregion
+
+            #region Nombres premier
+
+            //uint nb, cpt_clc = 0;
+            //do Console.WriteLine("Veuillez indiquer combien vous fait-il de nombres premier :");
+            //while (!uint.TryParse(Console.ReadLine(), out nb));
+
+            //for (int nb_analyse = 1, count = 0; count < nb; nb_analyse++)
+            //{
+            //    ushort nb_diviseur = 0;
+            //    for (int diviseur = 1; diviseur <= nb_analyse; diviseur++)
+            //    {
+            //        if (nb_analyse % diviseur == 0) nb_diviseur++;
+            //        cpt_clc++;
+            //    }
+            //    if (nb_diviseur == 2)
+            //    {
+            //        Console.WriteLine(nb_analyse);
+            //        count++;
+            //    }
+            //}
+            //Console.WriteLine(cpt_clc);
+
+            //uint nb, cpt_clc = 0;
+            //do Console.WriteLine("Veuillez indiquer combien vous fait-il de nombres premier :");
+            //while (!uint.TryParse(Console.ReadLine(), out nb));
+
+            //for (int nb_analyse = 2, count = 0; count < nb; nb_analyse++)
+            //{
+            //    bool isPrime = true;
+            //    for (int diviseur = 2; diviseur <= nb_analyse / 2 && isPrime; diviseur++)
+            //    {
+            //        if (nb_analyse % diviseur == 0) isPrime = false;
+            //        cpt_clc++;
+            //    }
+            //    if (isPrime)
+            //    {
+            //        Console.WriteLine(nb_analyse);
+            //        count++;
+            //    }
+            //}
+            //Console.WriteLine(cpt_clc);
+            #endregion
+
+            #region Boucle de double
+            //for (double i = 0.0; i <= 20.0; i+=0.1) Console.WriteLine(i);
+            //Calcul faussé du aux type utilisé, le double et le float sont des types dit d'approximation...
+            //0.1  => 0.10000000000000000...234587
+
+            //for (int i = 0; i <= 200; i++) Console.WriteLine(i/10D);
+            //for (decimal i = 0.0M; i <= 20.0M; i += 0.1M) Console.WriteLine(i);
+            #endregion
+
         }
     }
 }
