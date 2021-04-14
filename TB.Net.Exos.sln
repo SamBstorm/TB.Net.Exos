@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.Exo01", "TB.Net.Exo0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.Exo02", "TB.Net.Exo02\TB.Net.Exo02.csproj", "{3C4C9AD0-09A8-4C42-9732-F256C83AAB05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.Exo03", "TB.Net.Exo03\TB.Net.Exo03.csproj", "{B08E7AF4-D180-4ECD-9C2F-4C3CAFBF4898}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.Exo04", "TB.Net.Exo04\TB.Net.Exo04.csproj", "{0EF9C9D8-7997-4FBE-A3F8-6071F1B1FCC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{3C4C9AD0-09A8-4C42-9732-F256C83AAB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C4C9AD0-09A8-4C42-9732-F256C83AAB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C4C9AD0-09A8-4C42-9732-F256C83AAB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08E7AF4-D180-4ECD-9C2F-4C3CAFBF4898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08E7AF4-D180-4ECD-9C2F-4C3CAFBF4898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08E7AF4-D180-4ECD-9C2F-4C3CAFBF4898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08E7AF4-D180-4ECD-9C2F-4C3CAFBF4898}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF9C9D8-7997-4FBE-A3F8-6071F1B1FCC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF9C9D8-7997-4FBE-A3F8-6071F1B1FCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF9C9D8-7997-4FBE-A3F8-6071F1B1FCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF9C9D8-7997-4FBE-A3F8-6071F1B1FCC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
