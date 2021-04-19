@@ -14,7 +14,7 @@ namespace TB.Net.Exo07___Structs
         {
             X1 = X2 = null;
             if (Delta() < 0) return false;
-            if (Delta() >= 0) X1 = CalculX(-Math.Sqrt(Delta()));
+            X1 = CalculX(-Math.Sqrt(Delta()));
             if (Delta() > 0) X2 = CalculX(Math.Sqrt(Delta()));
             return true;
         }
@@ -24,7 +24,7 @@ namespace TB.Net.Exo07___Structs
             X1 = X2 = null;
             double delta = (B * B) - (4 * A * C);
             if (delta < 0) return false;
-            if (delta >= 0) X1 = CalculX(-Math.Sqrt(delta));
+            X1 = CalculX(-Math.Sqrt(delta));
             if (delta > 0) X2 = CalculX(Math.Sqrt(delta));
             return true;
         }
