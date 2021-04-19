@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>TB.Net.Exo07___SecondClient</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TB.Net.Exo07 - Structs\TB.Net.Exo07 - Structs.csproj" />
+  </ItemGroup>
+
+</Project>
