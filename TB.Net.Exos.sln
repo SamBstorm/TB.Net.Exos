@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TB.Net.ExoBonus02", "TB.Net
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.ExoBonus03", "TB.Net.ExoBonus03\TB.Net.ExoBonus03.csproj", "{35B71150-AB91-4E21-9F9D-D29C57ADB4A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TB.Net.ExoBonus04", "TB.Net.ExoBonus04\TB.Net.ExoBonus04.csproj", "{552E746D-5324-481C-A3AB-55E4134CC090}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{35B71150-AB91-4E21-9F9D-D29C57ADB4A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35B71150-AB91-4E21-9F9D-D29C57ADB4A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35B71150-AB91-4E21-9F9D-D29C57ADB4A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{552E746D-5324-481C-A3AB-55E4134CC090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{552E746D-5324-481C-A3AB-55E4134CC090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{552E746D-5324-481C-A3AB-55E4134CC090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{552E746D-5324-481C-A3AB-55E4134CC090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
